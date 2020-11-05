@@ -115,6 +115,10 @@ body .nav a {
   color: black;
 }
 
+body .nav a :hover {
+  background-color: #b3e25c;
+}
+
 body #id01 {
   display: none;
 }
