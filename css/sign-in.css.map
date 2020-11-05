@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "sing-in.scss"
+        "sign-in.scss"
     ],
     "names": [],
-    "file": "sing-in.css"
+    "file": "sign-in.css"
 }
