@@ -110,6 +110,7 @@ body {
 
     .nav {
         background-color: #88C022;
+        
 
         width: auto;
         height: 40px;
@@ -121,6 +122,11 @@ body {
 
         padding-right: 20%;
         padding-left: 20%;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
     }
 

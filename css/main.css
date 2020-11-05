@@ -110,6 +110,11 @@ body .nav {
   padding-left: 20%;
 }
 
+body .nav a {
+  text-decoration: none;
+  color: black;
+}
+
 body #id01 {
   display: none;
 }
