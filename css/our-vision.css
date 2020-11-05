@@ -117,6 +117,7 @@ body .nav a {
 
 body .nav a :hover {
   background-color: #b3e25c;
+  padding: 5px 10px;
 }
 
 body #id01 {
