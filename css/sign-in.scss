@@ -125,6 +125,10 @@ body {
         a {
             text-decoration: none;
             color: black;
+
+            :hover {
+                background-color: #b3e25c;
+            }
         }
 
     }
