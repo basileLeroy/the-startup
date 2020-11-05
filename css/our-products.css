@@ -6,6 +6,8 @@
 body {
   background-image: url(/assets/wood.jpg);
   background-repeat: repeat;
+  /*background-image: url(/assets/bg04.jpg);
+    background-repeat: repeat;*/
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,6 +101,51 @@ body .container {
   margin: auto;
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+body .container .section-left {
+  background-color: #dfecbb;
+  width: 1000px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 490px;
+      grid-template-columns: 500px 490px;
+}
+
+body .container .section-left img {
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+body .container .section-left .text {
+  margin-top: 25px;
+}
+
+body .container .section-right {
+  background-color: #dfecbb;
+  width: 1000px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 500px;
+      grid-template-columns: 500px 500px;
+}
+
+body .container .section-right img {
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 92px;
+}
+
+body .container .section-right .text {
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 body footer {
