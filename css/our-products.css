@@ -116,9 +116,8 @@ body .container .section-left {
 }
 
 body .container .section-left img {
-  height: 200px;
-  margin-top: 40px;
-  margin-left: 25px;
+  width: 420px;
+  margin: auto;
 }
 
 body .container .section-left .text {
@@ -138,9 +137,8 @@ body .container .section-right {
 }
 
 body .container .section-right img {
-  height: 200px;
-  margin-top: 40px;
-  margin-left: 92px;
+  width: 420px;
+  margin: auto;
 }
 
 body .container .section-right .text {

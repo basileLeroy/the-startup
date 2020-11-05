@@ -98,6 +98,7 @@ body {
         margin-bottom: 40px;
         margin-top: 40px;
 
+
         .section-left {
             background-color: #dfecbb;
             width: 1000px;
@@ -109,9 +110,8 @@ body {
             grid-template-columns: 500px 490px;
 
             img{
-                height: 200px;
-                margin-top: 40px;
-                margin-left: 25px;
+                width: 420px;
+                margin: auto;
             }
 
             .text {
@@ -130,9 +130,8 @@ body {
             grid-template-columns: 500px 500px;
 
             img{
-                height: 200px;                
-                margin-top: 40px;
-                margin-left: 92px;
+                width: 420px;
+                margin: auto;
             }
 
             .text {
