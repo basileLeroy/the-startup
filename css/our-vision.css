@@ -97,6 +97,38 @@ body .container {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+body .container .text {
+  text-align: center;
+}
+
+body .container .photo-vision, body .container .photo-mission, body .container .photo-values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container img {
+  padding: 50px;
+  width: 500px;
+}
+
+body .container .box {
+  background: rgba(128, 128, 128, 0.493);
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+body .container .list {
+  text-align: left;
 }
 
 body footer {
