@@ -1,1 +1,150 @@
-/* No CSS *//*# sourceMappingURL=workshop.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/assets/wood.jpg);
+  background-repeat: repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body header {
+  background-image: url(/assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 45px;
+}
+
+body header .logo {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+body header .logo .company-logo {
+  width: auto;
+  height: 90%;
+}
+
+body header .title {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+body header .signin {
+  width: 5%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body header .login {
+  width: 5%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+body .nav {
+  background-color: #88C022;
+  width: auto;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+body .container {
+  background-image: url(/assets/bg03.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+body footer {
+  background-color: steelblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+
+body footer .contact {
+  background-color: #6fb0e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+  width: 15%;
+}
+
+body footer .social {
+  background-color: #6fb0e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: right;
+  padding: 50px;
+  width: 15%;
+}
+/*# sourceMappingURL=workshop.css.map */

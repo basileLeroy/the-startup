@@ -25,6 +25,15 @@ body {
         .logo {
             width: 10%;
             height: 100%;
+            text-align: center;
+
+            margin: auto;
+
+            .company-logo {
+                width: auto;
+                height: 90%;
+
+            }
         }
         .title {
             width: 80%;
@@ -73,6 +82,7 @@ body {
 
     .container {
         background-image: url(/assets/bg03.jpg);
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
 
