@@ -15,17 +15,46 @@
             <img src="/assets/logo.png" class="company-logo" alt="logo" title="company-logo">
         </div>
         <h2 class="title">[company title]</h2>
-        <button class="signin">Sign In</button>
-        <button class="login">Login</button>
+        <button class="signin"><a href="/main/sign-in.html">Sign In</a></button>
+        <button class="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
     </header>
 
     
     <div class="nav">
-        <button><a href="#">Home</a></button>
-        <button><a href="#">How To Stay Green</a></button>
-        <button><a href="#">Products</a></button>
-        <button><a href="#">Workshop</a></button>
-        <button><a href="#">Vision</a></button>
+        <button><a href="/main/index.html">Home</a></button>
+        <button><a href="/stay-green/stay-green.html">How To Stay Green</a></button>
+        <button><a href="/our-products/index.html">Products</a></button>
+        <button><a href="/Workshop/workshop.html">Workshop</a></button>
+        <button><a href="/our-vision/index.html">Vision</a></button>
+    </div>
+
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="/assets/avatar.png" alt="Avatar" class="avatar">
+            </div>
+      
+            <div class="box01">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+        
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <br>
+                <button type="submit">Login</button>
+            </div>
+      
+            <div class="box01" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
     </div>
 
     <form action="/action_page.php">

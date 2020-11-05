@@ -45,20 +45,48 @@ body header .title {
 
 body header .signin {
   width: 5%;
-  height: auto;
+  height: 25px;
   text-align: center;
   margin: auto;
   margin-left: 5px;
   margin-right: 5px;
+  background-color: #16E2FF;
+  border: solid #337FED 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+body header .signin :hover {
+  background-color: #1696ff;
 }
 
 body header .login {
   width: 5%;
-  height: auto;
+  height: 25px;
   text-align: center;
   margin: auto;
   margin-left: 10px;
   margin-right: 15px;
+  background-color: #4b8ff5;
+  border: solid #FFFFFF 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+body header .login :hover {
+  background-color: #1220F5;
 }
 
 body .nav {
@@ -80,6 +108,124 @@ body .nav {
           justify-content: space-between;
   padding-right: 20%;
   padding-left: 20%;
+}
+
+body #id01 {
+  display: none;
+}
+
+body #id01 input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #id01 input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #id01 .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+body #id01 img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+body #id01 .box01 {
+  padding: 16px;
+}
+
+body #id01 span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+body #id01 .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+body #id01 .modal-content {
+  background-color: lavender;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+body #id01 .close {
+  position: absolute;
+  cursor: pointer;
+  right: 25px;
+  top: 0;
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+body #id01 .close :hover {
+  color: red;
+}
+
+body #id01 .close :focus {
+  color: red;
+}
+
+body #id01 .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 body .container {
