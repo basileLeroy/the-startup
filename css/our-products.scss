@@ -4,7 +4,10 @@
 }
 
 body {
-    background-image: url(/assets/wood.jpg);
+    /*background-image: url(/assets/wood.jpg);
+    background-repeat: repeat;*/
+
+    background-image: url(/assets/bg04.jpg);
     background-repeat: repeat;
 
     font-family: 'Montserrat', sans-serif;
@@ -94,6 +97,48 @@ body {
         margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
+
+
+        .section-left {
+            background-color: #dfecbb;
+            width: 1000px;
+            height: 280px;
+            margin-top: 50px;
+            margin-left: 50px;
+
+            display: grid;
+            grid-template-columns: 500px 490px;
+
+            img{
+                width: 420px;
+                margin: auto;
+            }
+
+            .text {
+                margin-top: 20px;
+            }
+        }
+
+        .section-right {
+            background-color: #dfecbb;
+            width: 1000px;
+            height: 280px;
+            margin-top: 50px;
+            margin-left: 50px;
+
+            display: grid;
+            grid-template-columns: 500px 500px;
+
+            img{
+                width: 420px;
+                margin: auto;
+            }
+
+            .text {
+                margin-top: 35px;
+                margin-left: 25px;
+            }
+        }
     }
 
     footer {

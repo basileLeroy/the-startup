@@ -94,7 +94,34 @@ body {
         margin: auto;
         margin-bottom: 40px;
         margin-top: 40px;
+    .text{
+     text-align:center;
+
     }
+
+    .photo-vision,.photo-mission,.photo-values{
+
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        padding: 50px;
+        width: 500px;
+    }
+    .box{
+       background:rgba(128, 128, 128, 0.493); 
+       width: 700px;
+       height: auto;
+       margin:0 auto;
+       padding: 30px;
+    }
+    .list{
+
+        text-align:left;
+    }
+ } 
+
+
 
     footer {
         background-color: steelblue;
