@@ -92,7 +92,18 @@ body {
         flex-direction: column;
 
         margin: auto;
+    
+    .text{
+        background-color: black;
+        display:flex;
+        justify-content: center;
+ 
+    
     }
+ }  
+  
+
+
 
     footer {
         background-color: steelblue;
