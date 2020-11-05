@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(/assets/wood.jpg);
+  background-image: url(/assets/bg04.jpg);
   background-repeat: repeat;
   font-family: 'Montserrat', sans-serif;
 }
@@ -255,6 +255,17 @@ body .container {
   margin: auto;
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+body .container .section {
+  background-color: #dfecbb;
+  width: 1000px;
+  height: 280px;
+  margin: 50px auto;
+}
+
+body .container .section .text {
+  margin: 25px;
 }
 
 body footer {
