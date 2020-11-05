@@ -10,7 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 
     header {
-        background-color: yellow;
+        background-image: url(/assets/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
         display: flex;
         flex-direction: row;
         
@@ -53,7 +56,7 @@ body {
     }
 
     .nav {
-        background-color: silver;
+        background-color: #88C022;
 
         width: auto;
         height: 40px;
