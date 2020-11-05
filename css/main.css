@@ -353,20 +353,65 @@ body footer .contact {
   width: 15%;
 }
 
+body footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
 body footer .social {
   background-color: #6fb0e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: right;
-  padding: 50px;
+  padding: 65px;
   width: 15%;
+}
+
+body footer .social .fa {
+  padding: 5px;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+body footer .social .fa:hover {
+  opacity: 0.7;
+}
+
+body footer .social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+body footer .social .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+body footer .social .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+body footer .social .fa-instagram {
+  background: #ff1ab3;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
