@@ -103,13 +103,20 @@ body {
 
         display: flex;
         justify-content: center;
+        
     }
     img{
-        padding: 50px;
+        padding: 10px;
         width: 500px;
+        border:1px solid rgba(255, 255, 255, 0.39);
+        box-shadow:10px 15px solid #ccc;
+      -moz-box-shadow: 7px 3px 5px #ccc;
+      -webkit-box-shadow: 7px 3px 5px #ccc;
+      -khtml-box-shadow: 7px 3x 5px #ccc;
+
     }
     .box{
-       background:rgba(128, 128, 128, 0.493); 
+       background:rgba(26, 128, 211, 0.342); 
        width: 700px;
        height: auto;
        margin:0 auto;
