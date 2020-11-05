@@ -4,10 +4,10 @@
 }
 
 body {
-  background-image: url(/assets/wood.jpg);
-  background-repeat: repeat;
-  /*background-image: url(/assets/bg04.jpg);
+  /*background-image: url(/assets/wood.jpg);
     background-repeat: repeat;*/
+  background-image: url(/assets/bg04.jpg);
+  background-repeat: repeat;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -106,7 +106,7 @@ body .container {
 body .container .section-left {
   background-color: #dfecbb;
   width: 1000px;
-  height: 250px;
+  height: 280px;
   margin-top: 50px;
   margin-left: 50px;
   display: -ms-grid;
@@ -117,18 +117,18 @@ body .container .section-left {
 
 body .container .section-left img {
   height: 200px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-left: 25px;
 }
 
 body .container .section-left .text {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 body .container .section-right {
   background-color: #dfecbb;
   width: 1000px;
-  height: 250px;
+  height: 280px;
   margin-top: 50px;
   margin-left: 50px;
   display: -ms-grid;
@@ -139,12 +139,12 @@ body .container .section-right {
 
 body .container .section-right img {
   height: 200px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-left: 92px;
 }
 
 body .container .section-right .text {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 25px;
 }
 
