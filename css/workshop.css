@@ -99,6 +99,23 @@ body .container {
   margin: auto;
   margin-bottom: 40px;
   margin-top: 40px;
+  padding-top: 50px;
+}
+
+body .container .bullet-points {
+  background-color: rgba(235, 190, 211, 0.774);
+  padding: 20px;
+  margin: 90px;
+}
+
+body .container h1, body .container h3 {
+  color: #2d15b4;
+  text-align: center;
+}
+
+body .container .workshop {
+  text-align: center;
+  font-size: 20px;
 }
 
 body footer {
