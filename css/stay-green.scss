@@ -252,11 +252,24 @@ body {
         .section {
             background-color: #dfecbb;
             width: 1000px;
-            height: 280px;
             margin: 50px auto;
+
+            img {
+                display: block;
+                height: 400px;
+                margin: 15px auto;
+            }
 
             .text {
                 margin: 25px;
+
+                p {
+                    margin-top: 15px;
+                }
+
+                p#source {
+                    font-size: x-small;
+                }
             }
 
         }

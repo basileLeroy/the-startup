@@ -260,12 +260,25 @@ body .container {
 body .container .section {
   background-color: #dfecbb;
   width: 1000px;
-  height: 280px;
   margin: 50px auto;
+}
+
+body .container .section img {
+  display: block;
+  height: 400px;
+  margin: 15px auto;
 }
 
 body .container .section .text {
   margin: 25px;
+}
+
+body .container .section .text p {
+  margin-top: 15px;
+}
+
+body .container .section .text p#source {
+  font-size: x-small;
 }
 
 body footer {
