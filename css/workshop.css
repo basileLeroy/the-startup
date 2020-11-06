@@ -4,13 +4,13 @@
 }
 
 body {
-  background-image: url(./assets/bg04.jpg);
+  background-image: url(assets/bg04.jpg);
   background-repeat: repeat;
   font-family: 'Montserrat', sans-serif;
 }
 
 body header {
-  background-image: url(./assets/header.jpg);
+  background-image: url(assets/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -241,7 +241,7 @@ body #id01 .animate {
 }
 
 body .container {
-  background-image: url(./assets/bg03.jpg);
+  background-image: url(assets/bg03.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
