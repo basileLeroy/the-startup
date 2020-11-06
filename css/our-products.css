@@ -62,10 +62,6 @@ body header .signin {
   text-align: center;
 }
 
-body header .signin :hover {
-  background-color: #1696ff;
-}
-
 body .login {
   width: 5%;
   height: 25px;
@@ -110,12 +106,18 @@ body .nav {
   padding-left: 20%;
 }
 
-body .nav a {
+body .nav .nav-box {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+body .nav .nav-box a {
   text-decoration: none;
   color: black;
 }
 
-body .nav a :hover {
+body .nav .nav-box a :hover {
   background-color: #b3e25c;
   padding: 5px 10px;
 }
