@@ -62,10 +62,6 @@ body header .signin {
   text-align: center;
 }
 
-body header .signin :hover {
-  background-color: #1696ff;
-}
-
 body header .login {
   width: 5%;
   height: 25px;
@@ -110,12 +106,18 @@ body .nav {
   padding-left: 20%;
 }
 
-body .nav a {
+body .nav .nav-box {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+body .nav .nav-box a {
   text-decoration: none;
   color: black;
 }
 
-body .nav a :hover {
+body .nav .nav-box a :hover {
   background-color: #b3e25c;
   padding: 5px 10px;
 }
@@ -255,6 +257,12 @@ body .container {
   margin: auto;
   margin-bottom: 40px;
   margin-top: 40px;
+  padding-bottom: 25px;
+}
+
+body .container .title-main {
+  text-align: center;
+  padding-top: 25px;
 }
 
 body .container .steps-left {
@@ -275,8 +283,13 @@ body .container .steps-left {
 
 body .container .steps-left .photo {
   width: 30%;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 20px;
+}
+
+body .container .steps-left .photo img {
+  width: 100%;
+  margin: auto;
 }
 
 body .container .steps-left .textbox {
@@ -308,7 +321,12 @@ body .container .steps-right {
 body .container .steps-right .photo {
   width: 30%;
   margin-left: 20px;
-  margin-right: 50px;
+  margin-right: 100px;
+}
+
+body .container .steps-right .photo img {
+  width: 100%;
+  margin: auto;
 }
 
 body .container .steps-right .textbox {
@@ -334,23 +352,24 @@ body footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  height: 200px;
+  height: 50px;
 }
 
 body footer .contact {
-  background-color: #6fb0e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 50px;
-  width: 15%;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 20px;
+  padding: 5px;
+  width: 800px;
+  margin: 0 auto;
 }
 
 body footer p {
@@ -358,13 +377,14 @@ body footer p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 body footer .social {
-  background-color: #6fb0e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,13 +396,13 @@ body footer .social {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: right;
-  padding: 65px;
-  width: 15%;
+  height: 20px;
+  padding: 1px 25px;
 }
 
 body footer .social .fa {
   padding: 5px;
-  padding-top: 20px;
+  padding-top: 5px;
   font-size: 30px;
   width: 30px;
   height: 30px;

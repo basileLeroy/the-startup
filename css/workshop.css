@@ -62,10 +62,6 @@ body header .signin {
   text-align: center;
 }
 
-body header .signin :hover {
-  background-color: #1696ff;
-}
-
 body .login {
   width: 5%;
   height: 25px;
@@ -110,12 +106,18 @@ body .nav {
   padding-left: 20%;
 }
 
-body .nav a {
+body .nav .nav-box {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+body .nav .nav-box a {
   text-decoration: none;
   color: black;
 }
 
-body .nav a :hover {
+body .nav .nav-box a :hover {
   background-color: #b3e25c;
   padding: 5px 10px;
 }
@@ -325,11 +327,27 @@ body footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  height: 200px;
+  height: 50px;
 }
 
 body footer .contact {
-  background-color: #6fb0e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 20px;
+  padding: 5px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+body footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,27 +355,58 @@ body footer .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 50px;
-  width: 15%;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 body footer .social {
-  background-color: #6fb0e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: right;
-  padding: 50px;
-  width: 15%;
+  height: 20px;
+  padding: 1px 25px;
+}
+
+body footer .social .fa {
+  padding: 5px;
+  padding-top: 5px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+body footer .social .fa:hover {
+  opacity: 0.7;
+}
+
+body footer .social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+body footer .social .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+body footer .social .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+body footer .social .fa-instagram {
+  background: #ff1ab3;
+  color: white;
 }
 /*# sourceMappingURL=workshop.css.map */
