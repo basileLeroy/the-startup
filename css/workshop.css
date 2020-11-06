@@ -266,55 +266,26 @@ body .container .bullet-points {
   margin: 90px;
 }
 
-body .container h1, body .container h3 {
+body h3 {
   color: #2d15b4;
   text-align: center;
 }
 
-body .container p {
-  font-weight: 400;
-}
-
-body .container .workshop {
-  text-align: center;
-}
-
-body .container .workshop .workshop-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-self: center;
-  margin: 0 auto;
-  padding-right: 200px;
-  width: 50%;
-  height: 25%;
-}
-
-body .container .top-left {
-  color: rgba(0, 0, 255, 0.452);
-  text-align: center;
-  position: absolute;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  top: 250px;
-  left: 400px;
-  padding-top: 15px;
-}
-
-body .container .bottom {
-  position: absolute;
-  top: 1050px;
-}
-
-body .container .bottom .date {
-  width: 880px;
-  padding-top: 10%;
+.workshop {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto;
 }
 
-body footer {
+.workshop .text {
+  color: rgba(0, 0, 255, 0.795);
+  text-align: center;
+  position: absolute;
+  padding: 30px;
+}
+
+.workshop footer {
   background-color: steelblue;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,7 +301,7 @@ body footer {
   height: 50px;
 }
 
-body footer .contact {
+.workshop footer .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,7 +318,7 @@ body footer .contact {
   margin: 0 auto;
 }
 
-body footer p {
+.workshop footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,7 +330,7 @@ body footer p {
   padding-top: 20px;
 }
 
-body footer .social {
+.workshop footer .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +346,7 @@ body footer .social {
   padding: 1px 25px;
 }
 
-body footer .social .fa {
+.workshop footer .social .fa {
   padding: 5px;
   padding-top: 5px;
   font-size: 30px;
@@ -386,26 +357,26 @@ body footer .social .fa {
   margin: 5px 2px;
 }
 
-body footer .social .fa:hover {
+.workshop footer .social .fa:hover {
   opacity: 0.7;
 }
 
-body footer .social .fa-facebook {
+.workshop footer .social .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-body footer .social .fa-twitter {
+.workshop footer .social .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-body footer .social .fa-linkedin {
+.workshop footer .social .fa-linkedin {
   background: #007bb5;
   color: white;
 }
 
-body footer .social .fa-instagram {
+.workshop footer .social .fa-instagram {
   background: #ff1ab3;
   color: white;
 }

@@ -257,50 +257,27 @@ body {
         padding:20px;  
         margin: 90px;
     }
-        h1,h3{
+
+ }
+     h3{
         color: rgb(45, 21, 180);
         text-align:center;
      
     }
-    p{
-        font-weight: 400;
-
+   
     }
     .workshop{
-        text-align:center;
-        .workshop-image{
-            display:flex;
-            justify-self: center;
-            margin:0 auto;
-            padding-right:200px;
-            width:50%;
-            height:25%;
-    }
-    }
-    .top-left {
-        color:rgba(0, 0, 255, 0.452);
+        justify-content: center;
+        margin: 0 auto;
+    
+    .text {
+        color:rgba(0, 0, 255, 0.795);
         text-align: center;
         position: absolute;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        top: 250px;
-        left:400px;
-        padding-top:15px;
-        
+        padding:30px;
+
     } 
-
-   .bottom{
-    position: absolute;
-    top: 1050px;
-        .date{
-        width: 880px;
-        padding-top: 10%;
-        justify-content: center;
-        font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      }
-
-
-   }    
-}           
+          
 
 footer {
     background-color: steelblue;
