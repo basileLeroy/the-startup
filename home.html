@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/css/sign-in.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,29 +15,30 @@
             <img src="/assets/logo.png" class="company-logo" alt="logo" title="company-logo">
         </div>
         <h2 class="title">ZERO</h2>
-        <button class="signin"><a href="/main/sign-in.html">Sign In</a></button>
+        <button class="signin"><a href="/sign-in.html">Sign In</a></button>
         <button class="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
     </header>
 
     
     <div class="nav">
         <div class="nav-box">
-            <a href="./main/index.html"><b>Home</b></a>
+            <a href="/home.html"><b>Home</b></a>
         </div>
         <div class="nav-box">
-            <a href="./stay-green/stay-green.html"><b>How To Stay Green</b></a>
+            <a href="/stay-green.html"><b>How To Stay Green</b></a>
         </div>
         <div class="nav-box">
-            <a href="./our-products/index.html"><b>Products</b></a>
+            <a href="/.html"><b>Products</b></a>
         </div>
         <div class="nav-box">
-            <a href="./Workshop/workshop.html"><b>Workshop</b></a>
+            <a href="/workshop.html"><b>Workshop</b></a>
         </div>
         <div class="nav-box">
-            <a href="./our-vision/index.html"><b>Vision</b></a>
+            <a href="/vision.html"><b>Vision</b></a>
         </div>
     </div>
 
+    
     <div id="id01" class="modal">
   
         <form class="modal-content animate" action="/action_page.php" method="post">
@@ -68,32 +68,56 @@
         </form>
     </div>
 
-    <form action="/action_page.php">
-        <div class="container">
-          <h1>Register</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" id="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-      
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-          <hr>
-          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-      
-          <button type="submit" class="registerbtn">Register</button>
+    <div class="container">
 
-          <div class="signin">
-            <p>Already have an account? <a href="#">Sign in</a>.</p>
-          </div>
+        <div class="title-main">
+            <h2>IT'S SIMPLE</h2>
         </div>
-        
 
-    </form>
+        <div class="steps-left">
+            <div class="photo">
+                <img src="/assets/register.png" alt="image">
+            </div>
+            <div class="textbox">
+                <h4>STEP 1: REGISTER</h4>
+                <br />
+                <p>Make sure you are signed in to purchass our products! <br> Already registered? Then you just need to log in.</p> 
+            </div>
+        </div>
+
+        <div class="steps-right">
+            <div class="photo">
+                <img src="/assets/shopping-cart.png" alt="image">
+            </div>
+            <div class="textbox">
+                <h4>STEP 2: SELECTION</h4>
+                <br />
+                <p>Go to our products and select the packages you want.</p> 
+            </div>
+        </div>
+
+        <div class="steps-left">
+            <div class="photo">
+                <img src="/assets/fill-in.png" alt="image">
+            </div>
+            <div class="textbox">
+                <h4>STEP 3: PERSONALISE</h4>
+                <br />
+                <p>Personalise your purchase by filling the ordering form and submit your demands.</p> 
+            </div>
+        </div>
+
+        <div class="steps-right">
+            <div class="photo">
+                <img src="/assets/package.png" alt="image">
+            </div>
+            <div class="textbox">
+                <h4>STEP 4: ORDER NOW!</h4>
+                <br />
+                <p>Finish you order and it will be delivered at your requested date and interval</p> 
+            </div>
+        </div>
+    </div>
 
     <footer>
 
@@ -130,6 +154,7 @@
         </div>
         
     </footer>
+
 
 
 </body>
